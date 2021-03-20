@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.lcx.scanner.ScannerView
+        android:id="@+id/main_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:stroke_color="@color/black"
+        app:stroke_length="20dp"
+        app:msg="电控缴费大口径的"
+        app:msg_color="@color/design_default_color_error"/>
+
+</LinearLayout>

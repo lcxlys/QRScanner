@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScannerView">
+        <attr name="stroke_color"  format="color"/>
+        <attr name="stroke_length" format="dimension"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="msg" format="string"/>
+        <attr name="msg_color" format="color"/>
+    </declare-styleable>
+</resources>
